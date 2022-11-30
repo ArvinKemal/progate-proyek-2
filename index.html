@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Progate 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="myModal1">
+        <div id="modalContent">
+            <span id="closeModalIcon1">&times;</span>
+            <img src="assets/1.png" alt="">
+        </div>
+    </div>
+    <div id="myModal2">
+        <div id="modalContent">
+            <span id="closeModalIcon2">&times;</span>
+            <img src="assets/2.png" alt="">
+        </div>
+    </div>
+    <div id="myModal3">
+        <div id="modalContent">
+            <span id="closeModalIcon3">&times;</span>
+            <img src="assets/3.png" alt="">
+        </div>
+    </div>
+    <div id="myModal4">
+        <div id="modalContent">
+            <span id="closeModalIcon4">&times;</span>
+            <img src="assets/4.png" alt="">
+        </div>
+    </div>
+
+    <header>
+        <div class="header-title">
+            <h1>Ninja Ken</h1>
+        </div>
+        <div class="header-content">
+            <img src="assets/bars.png" alt="">
+        </div>
+        <ul>
+            <li>Tentang Saya</li>
+            <li>Proyek Contoh</li>
+            <li>Hubungi Saya</li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="container1">
+            <div class="container1-title">
+                <h1>NINJA KEN<span>.</span></h1>
+            </div>
+            <div class="container1-description">
+                <p>MY PORTOFOLIO</p>
+                <img src="assets/Ninja Ken.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="info">
+        <div class="info-content">
+            <h1>Tentang Saya</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugiat ad est odit modi voluptate quos
+                repellat quidem, numquam aspernatur quisquam natus nam cumque perferendis inventore qui quibusdam
+                eligendi incidunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vitae sunt quis illo
+                doloremque libero aut corporis molestiae, blanditiis eius aspernatur explicabo aperiam ab voluptates,
+                quae harum consequuntur. Itaque, at.</p>
+        </div>
+    </div>
+    <div class="containers">
+        <div class="container2">
+            <div class="container2-title">
+                <h1>Proyek Contoh</h1>
+            </div>
+            <div class="container2-row">
+                <div class="container2-row-content fade">
+                    <img src="assets/1.png" alt="" id="openModalimg1">
+                    <h2>Image 1</h2>
+                </div>
+                <div class="container2-row-content fade">
+                    <img src="assets/2.png" alt="" id="openModalimg2">
+                    <h2>Image 2</h2>
+                </div>
+                <div class="container2-row-content fade">
+                    <img src="assets/3.png" alt="" id="openModalimg3">
+                    <h2>Image 3</h2>
+                </div>
+                <div class="container2-row-content fade">
+                    <img src="assets/4.png" alt="" id="openModalimg4">
+                    <h2>Image 4</h2>
+                </div>
+
+                <a class="prev" onclick="updateSlide(-1)">&#10094;</a>
+                <a class="next" onclick="updateSlide(1)">&#10095;</a>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact-title">
+            <h1>Hubungi Saya</h1>
+        </div>
+        <div class="contact-content">
+            <input type="text" placeholder="Email (diperlukan)" required class="i Email" id="email">
+            <input type="text" placeholder="Message (diperlukan)" required class="i Message" id="message">
+            <button onclick="ambilInput()">Kirim</button>
+        </div>
+    </div>
+    <div class="faq">
+        <h2>Frequently Asked Question(FAQ)</h2>
+
+        <button class="accordion">Email apa yang harus saya masukkan?</button>
+        <div class="panel">
+            <p>Email yang harus kamu isi di dalam form adalah "arvin.kemal2017@gmail.com".</p>
+        </div>
+        <button class="accordion">Message apa yang harus saya masukkan?</button>
+        <div class="panel">
+            <p>Message yang harus kamu isi di dalam form adalah "salah".</p>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer-title">
+            <h1>Ninja Ken</h1>
+        </div>
+        <ul>
+            <li>Tentang Saya</li>
+            <li>Proyek Contoh</li>
+            <li>Hubungi Saya</li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
